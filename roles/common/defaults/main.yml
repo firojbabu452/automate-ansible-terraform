@@ -1,0 +1,8 @@
+---
+common_packages:
+  - vim
+  - tree
+  - htop
+  - curl
+  - wget
+common_timezone: UTC

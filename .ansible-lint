@@ -1,0 +1,12 @@
+---
+skip_list:
+  - yaml[truthy]
+
+warn_list:
+  - no-changed-when
+  - command-instead-of-module
+
+exclude_paths:
+  - .git/
+  - terraform/
+  - solutions/

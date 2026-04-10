@@ -1,0 +1,27 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfplan
+
+
+*.pem
+terra-key-ansible.pub
+
+# Ansible
+*.retry
+.vault_password
+.vault_pass*.txt
+modules/06-vault/vars/secrets.yml
+
+
+inventories/dev/hosts.ini
+
+
+# OS files
+.DS_Store
+.claude/
+terraform/keys/terra-key-ansible
